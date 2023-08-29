@@ -1,7 +1,7 @@
-html { font-family: Arial, Helvetica, sans-serif;
-
+html { 
+   font-family: Arial, Helvetica, sans-serif;
 }
-h1 { color: aqua;
+h1 { color: rgb(77, 255, 0);
 
  }
 
@@ -13,3 +13,4 @@ h1 { color: aqua;
     margin-bottom: 15px; 
 
  }
+ 
