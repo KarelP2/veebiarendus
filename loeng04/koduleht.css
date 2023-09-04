@@ -11,17 +11,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .sisuala {
 display: flex;
 height: 100%;
-
-
 }
-
-
 
 .artikkel {
     width: 100%;
