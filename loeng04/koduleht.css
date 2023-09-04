@@ -11,40 +11,39 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .sisuala {
 display: flex;
-height: 30vh;
+height: 100%;
+
 
 }
 
-.kylgpaan {
-    width: 30%;
-    height: 100%;
-    background-color: aquamarine;
-}
+
+
 .artikkel {
-    width: 70%;
-    height: 100%;
-    background-color: antiquewhite;
-}
-
-.jalus {
-    display: flex;
-    height: 200px;
     width: 100%;
-    background-color: lightblue;
-    align-items: center;
+    height: 100%;
+    background-color: beige;
+}
+
+.menyy ul {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
     justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+   
+
 }
 
-.reklaam-pilt {
-    width: 150px;
+.pilt {
     display: block;
-    display: inline-block;
-}
-
-.jalusmenyy ul {
-    list-style-type: none;
+    width: 40%;
+    height: 198px;
 }

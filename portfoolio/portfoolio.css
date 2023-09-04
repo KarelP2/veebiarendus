@@ -1,0 +1,42 @@
+*  {
+    box-sizing: border-box;
+}
+
+.konteiner {
+    background-color: antiquewhite;
+    width: 80%;
+    height: 300px;
+    min-height: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+
+    
+
+}
+
+.kast {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 1rem;
+    
+}
+
+.suurkast {
+    width: 450px;
+    height: 150px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.pilt {
+    width: 80%;
+    
+}
