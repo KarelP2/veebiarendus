@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.konteiner {
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.Pilt {
+    display: block;
+    width: 100%;
+}
+.kate {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 5s ease;
+}
+
+.pilt:hover {
+    transform: translateY(-4px);
+}
+
+.pildi-konteiner:hover .kate {
+    opacity: 1;
+}
+
+
