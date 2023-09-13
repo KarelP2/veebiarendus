@@ -60,9 +60,34 @@ a {
 
 .pealkiri-pilt {
     display: none;
+    overflow: hidden;
+
+}
+.pealkiri-pilt .matkaja {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -400
+    px;
+}
+
+.pealkiri-pilt .vari {
+    width: 1091px;
+    height: 87px;
+    margin-top: -40px;
+    margin-right: -178px;
+    
 }
 
 .rida {
+    display: flex;
+    color: #0B0B0B;
+    text-transform: uppercase;
+
+}
+
+.rida2 {
     display: flex;
     color: #0B0B0B;
     text-transform: uppercase;
@@ -73,7 +98,37 @@ a {
     font-size: 39.57px;
     letter-spacing: 0px;
     font-weight: 800;
+
+}
+
+.rida2 h1 {
+    font-size: 74.39px;
+    letter-spacing: 0px;
+    font-weight: 800;
+}
+
+.rida3 {
+    display: flex;
+    color: #0B0B0B;
+    text-transform: uppercase;
     
+}
+
+.rida3 h3 {
+    font-size: 20.83px;
+    letter-spacing: 0px;
+    font-weight: 800;
+}
+
+.liblikas2 {
+    width: 60px;
+    height: 32px;
+    margin-left: -70px;
+
+}
+
+.container {
+    padding-left: 100px;
 }
 
 .liblikas1 {
@@ -81,11 +136,36 @@ a {
     height: 66.04px;
     margin-top: -40px;
     margin-left: auto;
+    display: block;
 }
+
+
 
 .pealkiri-kastid {
     margin-top: 50px;
 
+}
+
+
+
+.nupp {
+    width: 247px;
+    height: 58px;
+    background: #0B0B0B;
+    color:white;
+    letter-spacing: 2.25px;
+    font-size: 12.5px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 95%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -96,9 +176,13 @@ a {
     .pealkiri-pilt {
         display: block;
     }
-    
+
     .pealkiri-kastid {
         margin-top: 210px;
     }
 
+   
+
+    
+   
 }
