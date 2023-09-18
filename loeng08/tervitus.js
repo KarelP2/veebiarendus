@@ -1,5 +1,5 @@
 let tervitusElement
-let nimi
+let nimi 
 
 tervitusElement = document.getElementById('tervitus')
 nimi = prompt('Sisesta enda nimi')
@@ -13,6 +13,6 @@ if (nimi.lenght > 6) {
 }
 
 for (let index = 0; index < nimi.length; index++ ) {
-    tervitusElement.innerHTML += '<div class="taht">' + index +  nimi [index] + '</div>'
+    tervitusElement.innerHTML += '<div class="taht">' + index + ' - ' nimi [index] + '</div>'
 
 }
