@@ -1,0 +1,68 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paiskonteiner {
+    width: 100%;
+    height: 778px;
+    background-image: url(./assets/Hills.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.pais-logo img {
+    width: 66.72px;
+    height: 64px;
+
+}
+
+.pais-nimi {
+    width: 126px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color:#0B0B0B;
+    font-size: 33px;
+    line-height: 30px;
+}
+
+.pais {
+    display: flex;
+    align-items: center;
+}
+
+.menyy {
+    font: 16.67px;
+    font-weight: 800;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.menyy:hover {
+    color:rgb(196, 115, 115);
+}
+
+a:visited {
+    color: rgb(196, 115, 115);
+} 
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    width: 100%;
+}
+input {
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 95%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .paiskonteiner {
+        background-image: url(./assets/Hills@2x.png);
+    }
